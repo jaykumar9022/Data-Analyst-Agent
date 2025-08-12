@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose port 80. This tells Docker that the container will listen on port 80.
-EXPOSE 80
+EXPOSE 8080
 
 # Command to run your FastAPI application when the container starts.
 # uvicorn: The ASGI server to run your FastAPI app.
