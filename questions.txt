@@ -1,0 +1,7 @@
+scrape https://liquipedia.net/valorant/Sentinels/Matches
+How many matches did SEN win against 100T?
+How many S-Tier matches were played by Sentinels?
+What is the online vs offline performance of Sentinels?
+How many matches were played in 2022?
+highest grossing films before 2000
+Which high court disposed most cases from 2019 to 2022?
