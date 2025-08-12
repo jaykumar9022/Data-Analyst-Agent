@@ -28,4 +28,4 @@ EXPOSE 8080
 # main:app: Refers to the 'app' object inside the 'main.py' file.
 # --host 0.0.0.0: Makes the application accessible from outside the container.
 # --port 80: Tells uvicorn to listen on port 80 inside the container.
-CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
