@@ -1,5 +1,3 @@
-# Dockerfile
-
 # Stage 1: Build Stage (for installing dependencies)
 FROM python:3.9-slim-buster
 
@@ -19,4 +17,5 @@ EXPOSE 8080
 
 # Command to run your FastAPI application.
 # Use the $PORT environment variable, which Cloud Run provides.
-CMD uvicorn main:app --host 0.0.0.0 --port $PORT
+
+CMD ["sh", "-c", "uvicorn main:app --host 0.0.0.0 --port ${PORT:-8080}"]
