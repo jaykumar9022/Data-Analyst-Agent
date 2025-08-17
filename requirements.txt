@@ -27,6 +27,20 @@ google-search-results
 python-multipart
 
 playwright
+
+
 tqdm
 jinja2
 pytest
+
+langchain
+langchain-core
+langchain-google-genai
+google-generativeai
+openpyxl
+pyarrow
+tabulate
+html5lib
+duckdb
+psutil
+httpx
